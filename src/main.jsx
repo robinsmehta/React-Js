@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
-<ul>
-  <li>apple</li>
-  <li>banana</li>
-</ul>)
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)
