@@ -1,6 +1,6 @@
 const title = document.getElementById("title");
 
-title.textContent = "Hello, World!";
+title.textContent = "Hello World!";
 console.log(title);
 title.style.color = "blue";
 title.style.fontSize = "24px";
